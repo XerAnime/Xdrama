@@ -1,6 +1,6 @@
 export async function fetchAnimeInfo(title) {
 	const res = await fetch(
-		"https://testr-zeta.vercel.ap/movies/dramacool/" + title
+		"https://testr-zeta.vercel.app/movies/dramacool/" + title
 	);
 	const data = await res.json();
 	return data;
